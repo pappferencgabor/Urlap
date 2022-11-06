@@ -1,0 +1,37 @@
+#adatok, #igazolas {
+    width: 25%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #dbdcf0;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+#adatok {
+    margin-bottom: 10px;
+}
+
+#elkuld {
+    width: 215px;
+    height: 40px;
+    background-color: white;
+    padding: 5px 40px;
+    font-size: 20px;
+}
+
+#igazolas {
+    height: 90px;
+}
+
+#igazolas h2 {
+    width: 40%;
+    height: 30px;
+    margin: 5px auto;
+    background-color: white;
+}
+
+#szoveg {
+    margin-top: -5px;
+}

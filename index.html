@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="adatok">
+        <form action="">
+            <p>Megrendelő neve: <input type="text" name="nev" id="nev" onfocus="bele(this)" onblur="ki(this)"></p>
+            <p>Megrendelő címe: <input type="text" name="cim" id="cim" onfocus="bele(this)" onblur="ki(this)"></p>
+            <p>Megrendelő telefonszáma: <input type="text" name="tel" id="tel" value="+36 " onfocus="bele(this)" onblur="ki(this)"></p>
+            <input type="button" value="Elküld" id="elkuld" onclick="igazol()">
+        </form>
+    </div>
+
+    <div id="igazolas">
+        <h2>Visszaigazolás!</h2>
+        <p id="szoveg">Név: ? <br> Cím: ? <br> Telefon: ?</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
